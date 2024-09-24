@@ -6,11 +6,11 @@ services:
     platform: linux/amd64
     container_name: book_catalog
     environment:
-      DATABASE_URL: "postgresql://eisenlaisit722week7partnew1_user:nllBvBrw8A1mSGXm6fpT7Cs4bgi66rhk@dpg-crhkm208fa8c73bcmvug-a.oregon-postgres.render.com/eisenlaisit722week7partnew1"
+      DATABASE_URL: "postgresql://eisenlai68_7k9r_user:8xtlWTjTGIzHcIlTKV5cZDA5gDsvR2vF@dpg-crpan768ii6s73cepscg-a.oregon-postgres.render.com/eisenlai68_7k9r"
 
   inventory_management:
     build: ./inventory_management
     platform: linux/amd64
     container_name: inventory_management
     environment:
-      DATABASE_URL: "postgresql://eisenlaisit722week7partnew1_user:nllBvBrw8A1mSGXm6fpT7Cs4bgi66rhk@dpg-crhkm208fa8c73bcmvug-a.oregon-postgres.render.com/eisenlaisit722week7partnew1"
+      DATABASE_URL: "postgresql://eisenlai68_7k9r_user:8xtlWTjTGIzHcIlTKV5cZDA5gDsvR2vF@dpg-crpan768ii6s73cepscg-a.oregon-postgres.render.com/eisenlai68_7k9r"
